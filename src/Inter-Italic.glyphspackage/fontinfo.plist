@@ -2561,7 +2561,7 @@ value = 1;
 }
 );
 date = "2024-01-12 17:33:45 +0000";
-familyName = "Inter";
+familyName = Inter;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -3508,19 +3508,33 @@ sub t by t.sc;
 tag = c2sc;
 },
 {
-automatic = 1;
+automatic = 0;
 code = "sub a by a.sc;
+sub a.1 by a.sc;
+sub b by b.sc;
+sub d by d.sc;
+sub e by e.sc;
+sub f by f.sc;
+sub f.1 by f.sc;
 sub g by g.sc;
 sub ghook by ghook.sc;
 sub h by h.sc;
 sub i by i.sc;
+sub i.1 by i.sc;
+sub i.ss07 by i.sc;
+sub j by j.sc;
+sub j.ss07 by j.sc;
+sub k by k.sc;
 sub l by l.sc;
 sub l.ss02 by l.sc;
 sub m by m.sc;
 sub n by n.sc;
 sub oe by oe.sc;
+sub p by p.sc;
+sub q by q.sc;
 sub r by r.sc;
 sub t by t.sc;
+sub t.1 by t.sc;
 sub u by u.1;
 sub y by y.sc;
 ";
